@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.ejercicio1{
+    background: purple;
+    height: 100vh;
+    padding: 30px;
+}
+.ejercicio1 .card1{
+    width: 410px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.ejercicio1 .card1 img{
+    width: 350px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.ejercicio1 .card1 .datos_carga :nth-child(1){
+    color: #6D25B9;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ejercicio1 .card1 .datos_carga :nth-child(2){
+    color: gray;
+    padding-bottom: 40px;
+    font-size: 18px;    
+}
+.ejercicio1 .card1 .lista_archivos{
+    color: black;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.ejercicio1 .card1 .lista_archivos li {
+    margin-bottom: 8px;
+    text-align: center;
+}
+.ejercicio1 .card1 button{
+    background-color: #7411E8;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*EJERCICIO 2*/
+
+.ejercicio2{
+    background: lightgrey;
+    height: 100vh;
+    padding: 30px;
+}
+
+.ejercicio2 .card2{
+    width: 410px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ejercicio2 .card2 .contenido{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ejercicio2 .card2 img{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.ejercicio2 .card2 .contenido .texto :nth-child(1){
+ color: black;
+ font-size: 20px;
+ margin-bottom: 10px;
+}
+.ejercicio2 .card2 .contenido .texto :nth-child(2){
+  color: grey;
+  font-size: 14px;
+  width: 300px;
+}
+
+.ejercicio2 .card2 .contenido .boton2{
+    margin-top: 70px;
+    margin-bottom: 25px;
+   
+  
+}
+.ejercicio2 .card2 .contenido a{
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: #F2B149;
+    border-radius: 30px;
+    padding: 12px 24px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.card2 .slidebar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.card2 .slidebar li{
+    margin-right: 10px;
+}
+
+.card2 .slidebar li button{
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: darkgray;
+    border: 0;
+    border-radius: 50%;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+.card2 .slidebar li .activo{
+    background:     gray;
+}
+
+/*ejercicio 3*/
+.ejercicio3{
+    background: plum;
+    height: 100vh;
+    padding: 30px;
+}
+
+.ejercicio3 .card3{
+    width: 410px;
+    height: 410px;
+    background-color: white;
+    border: 5px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ejercicio3 .card3 img{
+    width: 200px;
+}
+
+.ejercicio3 .card3 .texto3 :nth-child(1){
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.ejercicio3 .card3 .texto3 :nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color: darkgray;
+    width: 300px;
+    padding-bottom: 26px;
+}
+
+.ejercicio3 .card3 .boton3{
+    background-color: #EE68A1;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.ejercicio3 .card3 .boton3 a{
+    color: white;
+}
+
+/*Ejercicio4*/
+
+.ejercicio4{
+    background: gray;
+    height: 100vh;
+    padding: 30px;
+}
+.ejercicio4 .card4{
+    height: 700px;
+    width: 1050px;
+    background-color: white;
+    border: 5px solid black;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.ejercicio4 .card4 .contenido{
+    position: relative;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.ejercicio4 .card4 .contenido :nth-child(1){
+    float: left;
+}
+.ejercicio4 .card4 .contenido :nth-child(2){
+    float: right;
+}
+.ejercicio4 .card4 .contenido :nth-child(3){
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.ejercicio4 .card4 .contenido :nth-child(4){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.ejercicio4 .card4 .contenido :nth-child(5){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ejercicio4 .card4 .grande {
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ejercicio4 .card4 .grande {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.ejercicio4 .card4 .grande img {
+    height: 310px;
+    width: 350px;
+}
+
+.ejercicio4 .card4 h1{
+    color: black;
+    font-size: 300px;
+    text-align: center;
+    letter-spacing: -30px;
+    transform: scaleY(1.4);
+}
+
+/*Ejercicio 5*/
+
+.ejercicio5 {
+    background: #f2f3ab;
+    height: 100vh;
+    padding: 30px;
+}
+
+.ejercicio5 .card5 {
+    background: white;
+    border: 5px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 410px;
+}
+
+.ejercicio5 .card5 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ejercicio5 .card5 .header a {
+    color: black;
+    font-weight: bold;
+    padding: 7px;
+    background-color: lightgray;
+    border: 1px solid #000;
+}
+
+.ejercicio5 .card5 .header p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    margin-left: 100px;
+}
+
+.ejercicio5 .card5 .header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -30px;
+}
+
+.ejercicio5 .card5 .titulo {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.ejercicio5 .card5 .titulo h1 {
+    margin: 0;
+    font-size:36px;
+}
+
+.ejercicio5 .card5 .titulo p {
+    margin: 5px 0 0;
+    color: #777;
+}
+
+.ejercicio5 .card5 .Boards {
+    margin-top: 20px;
+}
+
+.ejercicio5 .card5 .Boards h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.ejercicio5 .card5 .board-section{
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.ejercicio5 .card5 .board-section img {
+    width: 100%;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.ejercicio5 .card5 .board-section p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+}
